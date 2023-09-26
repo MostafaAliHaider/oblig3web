@@ -22,6 +22,8 @@ const Page = () => {
 
     return (
         <div>
+
+            <h1>WARNING, sorry for bad styling :D</h1>
             {/* Task 1 */}
             {/* <Mycomponent/> */}
             {/* Task 2 and 4*/}

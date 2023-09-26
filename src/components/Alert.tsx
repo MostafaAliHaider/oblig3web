@@ -24,9 +24,9 @@ const Alert = ({inputValue, setInputValue, setIsClicked}:InputType) => {
     return (
         <div>
             {/* Task 12, 13*/}
-            <input type="text" value={inputValue} onChange={handleChange} placeholder="Type something" />
-            <button onClick={displayAlert}>Click here and get an Alert</button>
-        
+            <input type="text" value={inputValue} onChange={handleChange} placeholder="Type something" className= "border-indigo-500" />
+            <button className="bg-red-100" onClick={displayAlert}>Write in the input and click here to get an Alert</button>
+            
         </div>
     )
 }
